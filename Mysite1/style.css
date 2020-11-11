@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* height: 150vh; */
+}
+
+.header {
+ height: 30vh;
+ width: 100%;
+ background-image: url("images/whiteback.jpg");
+ border-bottom: 3px solid black;
+}
+
+.header h1 {
+  height: 30vh; 
+  font-size: 50px;
+  margin-top: 0;
+  line-height: 30vh;
+  text-align: center;
+}
+
+.navigate {
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  border-bottom: 3px solid black;
+}
+
+.navigate ul {
+  margin: 0;
+  text-align: center;
+}
+
+.navigate ul li {
+  display: inline-block;
+  line-height: 10vh;
+  margin: 0 70px;
+  list-style: none;
+  /* border: 1px solid black; */
+}
+
+.navigate ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.navigate ul li a:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.about_this_site {
+  height: 60vh;
+  width: 100%;
+  background-image: url("images/hisiwhite.jpg");
+  background-size: cover;
+  border-bottom: 3px solid black;
+}
+
+.about_this_site h1 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 40px 0;
+}
+
+.about_this_site p {
+  width: 65%;
+  margin: 0 auto;
+  font-size: 25px;
+  text-align: center;
+  padding: 50px;
+}
+
+.about_profile {
+  height: 80vh;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("images/white3.jpeg");
+  /* 以下三行list中央揃え */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 3px solid black;
+}
+
+.about_profile h1 {
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.about_profile ul {
+}
+
+.about_profile ul li {
+  padding-top: 20px;
+}
+
+.about_skill {
+  height: 80vh;
+  width: 100%;
+  background-image: url("images/zarawhite.jpeg");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 3px solid black;
+}
+
+.about_skill h1 {
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.about_skill ul {
+  padding-top: 50px;
+}
+
+
+.about_skill ul li {
+  padding-top: 30px;
+  font-size: 23px;
+}
+
+.about_contact {
+  height: 60vh;
+  width: 100%;
+  background-image: url("images/wavewhite.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about_contact h1 {
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.about_contact ul {
+  padding-top: 30px;
+}
+
+.about_contact ul li {
+  padding: 30px 0;
+  list-style: none;
+  font-size: 20px;
+}
+
+.about_contact ul li a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.about_contact ul li a:hover {
+ opacity: 0.3;
+ cursor: pointer;
+}
+
+
+
+.footer {
+  height: 30vh;
+  width: 100%;
+  background-color: black;
+}
+
+.footer h1 {
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+.footer h2 {
+  margin: 0 auto;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+}
+
+.footer .btn {
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 10px 0;
+  width: 5%;
+  text-align: center;
+  border: 3px solid white;
+} 
+
+.footer .btn a {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+} 
